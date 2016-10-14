@@ -33,7 +33,9 @@ public class MainActivity extends Activity {
 			            public void onRefresh(PullToRefreshBase<ListView> refreshView) {
 			                // TODO Auto-generated method stub
 			                new AsyncTask<Void, Void, Void>() {
-
+			                /**
+			                 * 上拉刷新，下拉加载的案例
+			                 */
 			                    @Override
 			                    protected Void doInBackground(Void... params) {
 			                        // TODO Auto-generated method stub
