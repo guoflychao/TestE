@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
 			                new AsyncTask<Void, Void, Void>() {
 			                /**
 			                 * 上拉刷新，下拉加载的案例
-			                 * 133131
+			                 * 1331311
 			                 */
 			                    @Override
 			                    protected Void doInBackground(Void... params) {
